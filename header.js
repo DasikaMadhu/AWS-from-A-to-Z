@@ -41,10 +41,11 @@ document.write('\
 				<ul>\
 					<li><a href="index.html">Home</a></li>\
 					<li><a href="aws-basics.html">AWS Basics</a></li>\
+					<li><a href="storage.html">Storage</a></li>\
+					<li><a href="pdfs.html">PDFs</a></li>\
 					<li><a href="references.html">References</a>\
 					<li><a href="https://madhue.medium.com" target="_blank">Medium Blogs</a></li>\
-				<!--<li><a href="storage.html">Storage</a></li>\
-				<li><a href="compute.html">Compute</a></li>\
+				<!--<li><a href="compute.html">Compute</a></li>\
 				<li><a href="database.html">Database</a></li> -->\
 							</ul>\
 						</nav>\

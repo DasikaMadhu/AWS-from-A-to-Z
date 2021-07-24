@@ -18,102 +18,60 @@
 		<a href="#" id="scroll">
 
 			<!-- Header + Menu -->
-		<script src="header.js"></script>
+			<script src="header.js"></script>
 
-						<!-- Main -->
-						<div id="main">
-							<div class="inner">
-								<h1>ABC's of Storage</h1>
+			<!-- Main -->
+			<div id="main">
+				<div class="inner">
+					<h1>ABC's of Storage</h1>
 
-								<ul>
-									<li><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> AWS provides a range of services for storing and accessing data for cost optimization and increased data availability.</li>
-									<li><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> There are multiple types of data storage options with additional backup and data migration facilities.</li>
+					<ul>
+						<li><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> AWS provides a range of services for storing and accessing data for cost optimization and increased data availability.</li>
+						<li><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> There are multiple types of data storage options with additional backup and data migration facilities.</li>
 
-								</ul>
+					</ul>
 
+					<h2 id="Cloud"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> Data Storage Categorization</h2>
+					<img src="images/Storage/AWS-S3-bucket-data-storage-categorization.png" onclick="openModal();currentSlide(1)" class="sketchnote">
 
-								<table>
-									<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Data Storage Categorization</strong></p>
-									<tr>
-										<th>Block Storage</th>
-										<th>File Storage</th>
-										<th>Object Storage</th>
-									</tr>
+					<div id="myModal" class="modal" class="hidden">
+						<span class="close cursor" onclick="closeModal()"><span class="iconify" data-icon="bi:cloud-slash" data-inline="false"></span></span>
+						<div class="modal-content">
 
-									<tr>
-										<td>Data is stored in ‘blocks’.</td>
-										<td>Data is stored as ‘files’ in a series of directories.</td>
-										<td>Each ‘object’ is stored across a flat address space.</td>
-									</tr>
-
-									<tr>
-										<td>Blocks are stored on a volume and attached to a single instance.</td>
-										<td>Data is stored in a file system.</td>
-										<td>Data is stored in objects, which are in turn stored in buckets.</td>
-									</tr>
-
-									<tr>
-										<td>Provides very low latency data access.</td>
-										<td>Provides shared access for multiple users.</td>
-										<td>Provides access to a large number of users simultaneously.</td>
-									</tr>
-
-								</table>
-
-								<p><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Data Storage Options</strong></p>
-								<ul>
-									<li><a href="#S3">Simple Storage Service</a></li>
-									<li><a href="#EFS">Elastic File System</a></li>
-									<li><a href="#FSx">Amazon FSx</a></li>
-									<li><a href="#EBS">Elastic Block Storage</a></li>
-									<li><a href="#Backup">AWS Backup</a></li>
-									<li><a href="#Storage-Gateway">AWS Storage Gateway</a></li>
-									<li><a href="#Data-Sync">AWS Data Sync</a></li>
-									<li><a href="#Transfer-Family">AWS Transfer Family</a></li>
-									<li><a href="#Snow-Family">AWS Snow Family</a></li>
-								</ul>
-
-								<p id="S3"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Simple Storage Service</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="EFS"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Elastic File System</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="FSx"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Amazon FSx</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="EBS"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>Elastic Block Storage</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="Backup"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Backup</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="Storage-Gateway"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Storage Gateway</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="Data-Sync"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Data Sync</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="Transfer-Family"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Transfer Family</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
-								<p id="Snow-Family"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> <strong>AWS Snow Family</strong></p>
-								<img src="images/AWS-Basics/" class="sketch-note">
-
+							<div class="mySlides">
+								<img src="images/Storage/AWS-S3-bucket-data-storage-categorization.png">
 							</div>
 						</div>
-
-						<!-- Footer -->
-							<script src="footer.js"></script>
-
 					</div>
 
-					<!-- Scripts -->
-					<script src="assets/js/jquery.min.js"></script>
-					<script src="assets/js/browser.min.js"></script>
-					<script src="assets/js/breakpoints.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<script src="assets/js/main.js"></script>
 
-				</body>
-				</html>
+					<h2 id="Cloud"><span class="iconify" data-icon="akar-icons:cloud" data-inline="false" class="label"></span> Data Storage Options</h2>
+					<ul>
+						<li><a href="S3.html">Simple Storage Service</a></li>
+						<span class="disable-links"><li><a href="#">Elastic File System</a></li>
+							<li><a href="#">Amazon FSx</a></li>
+							<li><a href="#">Elastic Block Storage</a></li>
+							<li><a href="#">AWS Backup</a></li>
+							<li><a href="#">AWS Storage Gateway</a></li>
+							<li><a href="#">AWS Data Sync</a></li>
+							<li><a href="#">AWS Transfer Family</a></li>
+							<li><a href="#">AWS Snow Family</a></li></span>
+						</div>
+					</ul>
+
+
+					
+					<!-- Footer -->
+					<script src="footer.js"></script>
+
+				</div>
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+
+			</body>
+			</html>

@@ -261,7 +261,7 @@ h6 a {
 h2 {
     color: #ef798a;
     font-size: 1.1em;
-    padding-bottom: 2em 0;    
+    padding-bottom: 1em;    
 }
 h3 {
     font-size: 1em;
@@ -370,7 +370,7 @@ ol li {
 ul {
     list-style: none;   
     list-style: disc;
-    padding: 2em 0 1em 1em;
+    padding: 1em 0 1em 1em;
 }
 ul li {
     list-style: none;
@@ -828,14 +828,6 @@ body.is-menu-visible #menu .close {
     transform: scale(1) rotate(0);
     opacity: 1;
 }
-#main {
-    padding: 0 0 6em 0;
-}
-@media screen and (max-width: 736px) {
-    #main {
-        padding: 0 0 4em 0;
-    }
-}
 #footer {
     padding: 1.8em;
     background-color: #fdedee;
@@ -1201,4 +1193,7 @@ img {
 }
 .iconify {
     color: #ef798a;
+}
+.disable-links {
+    pointer-events: none;
 }
