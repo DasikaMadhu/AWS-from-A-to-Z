@@ -16,7 +16,7 @@ document.write('\
 	<div class="inner">\
 	<section>\
 	<h2>Get in touch for any clarifications or suggestions!</h2>\
-	<sub>Beware of disabled links. They will be enabled as soon as create the respective sketchnotes.</sub>\
+	<sub>Beware of disabled links. They will be enabled as soon as I create the respective sketchnotes.</sub>\
 	<ul class="icons">\
 	<li><a href="https://www.linkedin.com/in/dasika-madhu-nimeshika/" target="_blank" class="label"><span class="iconify" data-icon="logos:linkedin-icon" data-inline="false"></span></a></li>\
 	<li><a href="https://twitter.com/xxMadBluexx" target="_blank" class="label"><span class="iconify" data-icon="logos:twitter" data-inline="false"></span></a></li>\

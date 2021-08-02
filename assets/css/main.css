@@ -829,6 +829,10 @@ body.is-menu-visible #menu .close {
     opacity: 1;
 }
 #footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
     padding: 1.8em;
     background-color: #fdedee;
 }
@@ -963,6 +967,7 @@ body.is-menu-visible #menu .close {
     width: 100%;
     margin: 0 auto;
     max-width: 80rem;
+    padding-bottom: 25px;
 }
 .cols-tiles {
     display: -webkit-box;
