@@ -7,4 +7,4 @@
 
 
 <p> Buy me a coffee </p>
-<a href="https://www.buymeacoffee.com/nimeshika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"></a>
+<a href="https://www.buymeacoffee.com/nimeshika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 100px !important;"></a>
