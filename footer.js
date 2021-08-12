@@ -25,6 +25,7 @@ document.write('\
 	<li><a href="https://madhue.medium.com" target="_blank" class="label"><span class="iconify" data-icon="cib:medium-m" data-inline="false"></span></a></li>\
 	<li><a href="https://madhue-portfolio.com" target="_blank" class="label"><span class="iconify" data-icon="gg:website" data-inline="false"></span></a></li>\
 	</ul>\
+	<a href="https://www.buymeacoffee.com/nimeshika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>\
 	\
 	</section>\
 	<ul class="copyright">\
