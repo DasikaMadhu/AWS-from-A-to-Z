@@ -5,4 +5,4 @@
 <p> Contact @ <a href="https://www.linkedin.com/in/dasika-madhu-nimeshika/" target="_blank"> LinkedIn </a></p>
 <p>Read her blogs @ <a href="https://madhue.medium.com" target="_blank"> Medium </a></p>
 
-<a href="https://www.buymeacoffee.com/nimeshika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 100px; height: 60px;"></a>
+<a href="https://www.buymeacoffee.com/nimeshika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 300px; height: 100px;"></a>
