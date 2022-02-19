@@ -1,4 +1,4 @@
-# AWS-from-A-to-Z
+# AWS-from-A-to-Z - On Hiatus 
 
 <a href="https://dasikamadhu.github.io/AWS-from-A-to-Z/index.html" target="_blank"> AWS from A to Z </a>
 
